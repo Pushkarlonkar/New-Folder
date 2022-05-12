@@ -1,0 +1,14 @@
+# Things to mention over here 
+# 1. runtime 
+# 2. API version of the SDK 
+# 3. Threadsafe 
+# 4. Handlers
+#all small 
+
+runtime : python27 
+api_version : 1     #api version used by the SDK (1)
+threadsafe : False   #single thread(false) of multithread(true)
+
+handlers : 
+- url : /
+  script : test.py
